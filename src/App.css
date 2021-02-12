@@ -29,7 +29,7 @@
 }
 /*  */
 .btn-wrapper button {
-  background-color: red;
+  background-color: green;
   border: 0px;
   padding: 10px;
   border-radius: 4px;
@@ -47,8 +47,8 @@
     margin-left: 10%;
 }
 .item {
-  float: left;
   display: inline-block;
+  float: left;
   width: 120px;
   padding: 20px;
   height: 70px;
@@ -71,6 +71,10 @@
     height: 20px;
     border-radius: 50%;
     color: #fff;
+}
+button.remove-cart-btn{
+  background-color: red;
+  margin-top: 8px;
 }
 /*  */
 @keyframes App-logo-spin {
